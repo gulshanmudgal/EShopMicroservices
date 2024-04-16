@@ -1,0 +1,34 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Catalog API -- https",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "launchSettingsProfile": "https",
+      "launchSettingsFilePath": "${workspaceFolder}/Services/Catalog/Catalog.API/Properties/launchSettings.json",
+      "program": "${workspaceFolder}/Services/Catalog/Catalog.API/bin/Debug/net8.0/Catalog.API.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "stopAtEntry": false,
+      "console": "internalConsole"
+    },
+    {
+      "name": "Catalog API -- http",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "launchSettingsProfile": "http",
+      "launchSettingsFilePath": "${workspaceFolder}/Services/Catalog/Catalog.API/Properties/launchSettings.json",
+      "program": "${workspaceFolder}/Services/Catalog/Catalog.API/bin/Debug/net8.0/Catalog.API.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "stopAtEntry": false,
+      "console": "internalConsole"
+    }
+  ]
+}
